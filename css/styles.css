@@ -1,4 +1,39 @@
+body {
+    font-family: 'Signika', sans-serif;
+    background-image: url("/assets/background-image.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: 2px solid white;
+    background-size: cover;
+    color: white
+}
+   
+#intro{
+    text-align: center;
+    font-size: 35px;
+}
+
 .guide {
     display: inline;
+    font-size: 20px;
+}
 
+#today{
+    font-size: 30px;
+    text-align: center;
+}
+
+#sectionTitle {
+    font-size: 25px;
+}
+
+div.pName1, div.pName2, div.pName3, div.pName4, div.pName5{
+    box-sizing: inherit;
+    border: 1px solid whitesmoke;
+    margin: 2px;
+}
+
+.pizza {
+    
 }
